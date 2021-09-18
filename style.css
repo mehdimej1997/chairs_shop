@@ -31,7 +31,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 h2 {
@@ -81,7 +81,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -107,6 +107,7 @@ img {
 
 /* FEATURES */
 .features-icon {
+  margin-bottom: 24px;
 }
 
 .features-title {
@@ -144,7 +145,14 @@ img {
   line-height: 1.7;
 }
 
+.testimonial-author {
+  color: #c3fae8;
+}
 /* CHAIRS */
+.chair {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 .chair-box {
   padding: 24px;
 }
@@ -155,14 +163,14 @@ h3 {
 
 .chair-details {
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .chair-details li {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
@@ -170,15 +178,24 @@ h3 {
 }
 
 .chair-icon {
+  width: 24px;
+  margin-bottom: 0;
 }
 
 .chair-price {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
+  align-items: center;
 }
 
 footer {
   margin-bottom: 48px;
   color: #495057;
+}
+
+svg {
+  color: #087f5b;
+  width: 36px;
+  margin-bottom: 16px;
 }
